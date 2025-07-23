@@ -1,17 +1,15 @@
 [
   [
     {
-      "id": "p4",
-      "name": "Crocs",
-      "price": 35,
-      "quantity": 1
-    }
-  ],
-  [
-    {
       "id": "p5",
       "name": "Vans shoes",
       "price": 50,
+      "quantity": 1
+    },
+    {
+      "id": "p6",
+      "name": "Adidas T-shirt",
+      "price": 22,
       "quantity": 1
     }
   ]

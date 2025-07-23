@@ -83,7 +83,7 @@ document.getElementById('checkout-btn')?.addEventListener('click', async () => {
   });
 
   if (response.ok) {
-    alert("Successful order!");
+    alert("Successfull order!");
     cart = [];
     renderCart();
   } else {

@@ -41,9 +41,6 @@ app.post('/api/products', (req, res) => {
       }
     }
 
-    const orderID = products.length -1
-    newProduct.id = orderID + 1
-
     // Check if product with same ID exists
     const existingIndex = products.findIndex(p => p.id === newProduct.id);
 
@@ -84,6 +81,10 @@ app.post('/api/orders', (req, res) => {
         orders = [];
       }
     }
+
+      const orderID = orders.length -1
+    order.id = orderID + 1
+
 
     // Add the new order
     orders.push(order);
