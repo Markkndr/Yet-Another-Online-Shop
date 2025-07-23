@@ -103,3 +103,9 @@ header h1 {
   transition: background-color 0.3s ease;
 }
 
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}

@@ -6,13 +6,14 @@ async function main() {
 
   const productList = document.getElementById('product-list');
 
-  const htmlProducts = products.map(product => `
-    <div class="product-card">
-      <h2>${product.name}</h2>
-      <h3>${product.price} €</h3>
-      <button data-id="${product.id}">Add to Cart</button>
-    </div>
-  `).join('');
+const htmlProducts = products.map(product => `
+  <div class="product-card">
+    <img src="${product.image}" alt="${product.name}" />
+    <h2>${product.name}</h2>
+    <h3>${product.price} Ft</h3>
+    <button data-id="${product.id}">Kosárba</button>
+  </div>
+`).join('');
 
   productList.innerHTML = htmlProducts;
 

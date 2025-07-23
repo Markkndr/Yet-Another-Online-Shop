@@ -2,38 +2,78 @@
   {
     "id": "p1",
     "name": "Nike Jordan Air 1",
-    "price": 80
+    "price": 80,
+    "image": "images/nike air.avif"
   },
   {
     "id": "p2",
     "name": "Puma shoes",
-    "price": 55
+    "price": 55,
+    "image": "images/puma shoes.png"
   },
   {
     "id": "p3",
     "name": "Yeezy slide",
-    "price": 110
+    "price": 110,
+    "image": "images/yeezy slide.webp"
   },
   {
     "id": "p4",
     "name": "Crocs",
-    "price": 35
+    "price": 35,
+    "image": "images/crocs.webp"
   },
   {
     "id": "p5",
     "name": "Vans shoes",
-    "price": 50
+    "price": 50,
+    "image": "images/Vans shoes.jpg"
+
   },
   {
     "id": "p6",
     "name": "Adidas T-shirt",
-    "price": 22
+    "price": 22,
+    "image": "images/Adidas shirt.jpg"
   },
   {
     "id": "p7",
     "name": "Nike T-shirt",
-    "price": 25
+    "price": 25,
+    "image": "images/nike tshirt.webp"
+  },
+  {
+    "id": "p8",
+    "name": "Csipkes bugyi",
+    "price": 10,
+    "image": "images/csipkes bugyi.webp"
+  },
+  {
+    "id": "p9",
+    "name": "DC shoes",
+    "price": 40,
+    "image": "images/dc shoes.webp"
+  },
+  {
+    "id": "p10",
+    "name": "DC shirt",
+    "price": 40,
+    "image": "images/dc shirt.jpg"
+  },
+  {
+    "id": "p11",
+    "name": "DC shoes",
+    "price": 40,
+    "image": "images/nike airforce1.webp"
+  },
+  {
+    "id": "p12",
+    "name": "Adidas originals",
+    "price": 40,
+    "image": "images/adidas originals.jpg"
   }
+
+  
 
   
 ]
