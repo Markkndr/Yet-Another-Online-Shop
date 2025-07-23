@@ -2,37 +2,37 @@
   {
     "id": "p1",
     "name": "Nike Jordan Air 1",
-    "price": 31990
+    "price": 80
   },
   {
     "id": "p2",
     "name": "Puma shoes",
-    "price": 21990
+    "price": 55
   },
   {
     "id": "p3",
     "name": "Yeezy slide",
-    "price": 43999
+    "price": 110
   },
   {
     "id": "p4",
     "name": "Crocs",
-    "price": 12000
+    "price": 35
   },
   {
     "id": "p5",
-    "name": "Vans",
-    "price": 19999
+    "name": "Vans shoes",
+    "price": 50
   },
   {
     "id": "p6",
     "name": "Adidas T-shirt",
-    "price": 8999
+    "price": 22
   },
   {
     "id": "p7",
     "name": "Nike T-shirt",
-    "price": 9499
+    "price": 25
   }
 
   

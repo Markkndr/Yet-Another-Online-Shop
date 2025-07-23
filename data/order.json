@@ -1,29 +1,17 @@
 [
   [
     {
-      "id": "p1",
-      "name": "Nike Jordan Air 1",
-      "price": 31990,
-      "quantity": 1
-    },
-    {
-      "id": "p2",
-      "name": "Puma shoes",
-      "price": 21990,
+      "id": "p4",
+      "name": "Crocs",
+      "price": 35,
       "quantity": 1
     }
   ],
   [
     {
-      "id": "p2",
-      "name": "Puma shoes",
-      "price": 21990,
-      "quantity": 1
-    },
-    {
       "id": "p5",
-      "name": "Vans",
-      "price": 19999,
+      "name": "Vans shoes",
+      "price": 50,
       "quantity": 1
     }
   ]

@@ -9,14 +9,13 @@ async function main() {
   const htmlProducts = products.map(product => `
     <div class="product-card">
       <h2>${product.name}</h2>
-      <h3>${product.price} Ft</h3>
-      <button data-id="${product.id}">Kosárba</button>
+      <h3>${product.price} €</h3>
+      <button data-id="${product.id}">Add to Cart</button>
     </div>
   `).join('');
 
   productList.innerHTML = htmlProducts;
 
-  // Kosárba gomb működés
   const buttons = productList.querySelectorAll('button');
   buttons.forEach(button => {
     button.addEventListener('click', () => {
@@ -48,10 +47,10 @@ function renderCart() {
 
   cart.forEach(item => {
     const li = document.createElement('li');
-    li.textContent = `${item.name} × ${item.quantity} - ${item.price * item.quantity} Ft`;
+    li.textContent = `${item.name} × ${item.quantity} - ${item.price * item.quantity} €`;
 
     const removeBtn = document.createElement('button');
-    removeBtn.textContent = 'Törlés';
+    removeBtn.textContent = 'Remove';
     removeBtn.classList.add('remove-item');
     removeBtn.addEventListener('click', () => {
       removeFromCart(item.id);
@@ -73,7 +72,7 @@ function removeFromCart(productId) {
 
 document.getElementById('checkout-btn')?.addEventListener('click', async () => {
   if (cart.length === 0) {
-    alert("A kosár üres!");
+    alert("The cart is empty!");
     return;
   }
 
@@ -84,11 +83,11 @@ document.getElementById('checkout-btn')?.addEventListener('click', async () => {
   });
 
   if (response.ok) {
-    alert("Rendelés sikeresen leadva!");
+    alert("Successful order!");
     cart = [];
     renderCart();
   } else {
-    alert("Hiba történt a rendelés során.");
+    alert("There was an error during the order.");
   }
 });
 
