@@ -1,169 +1,320 @@
 [
   {
-    "id": "p1",
-    "name": "Nike Jordan Air 1",
-    "price": 90,
-    "image": "images/nike air.avif",
-    "type": "shoes"
-  },
-  {
-    "id": "p2",
-    "name": "Puma shoes",
-    "price": 60,
-    "image": "images/puma shoes.png",
-    "type": "shoes"
-  },
-  {
-    "id": "p3",
-    "name": "Yeezy slide",
-    "price": 110,
-    "image": "images/yeezy slide.webp",
-    "type": "shoes"
-  },
-  {
-    "id": "p4",
-    "name": "Crocs",
-    "price": 35,
-    "image": "images/crocs.webp",
-    "type": "shoes"
-  },
-  {
-    "id": "p5",
-    "name": "Vans shoes",
-    "price": 50,
-    "image": "images/Vans shoes.jpg",
-    "type": "shoes"
-
-  },
-  {
-    "id": "p6",
-    "name": "Adidas T-shirt",
-    "price": 22,
-    "image": "images/Adidas shirt.jpg",
-    "type": "shirts"
-  },
-  {
-    "id": "p7",
-    "name": "Nike T-shirt",
-    "price": 25,
-    "image": "images/nike tshirt.webp",
-    "type": "shirts"
-  },
-  {
     "id": "p8",
-    "name": "Csipkes bugyi",
+    "name": "Csipkés bugyika",
     "price": 10,
     "image": "images/csipkes bugyi.webp",
-    "type": "underwear"
-  },
-  {
-    "id": "p9",
-    "name": "DC shoes",
-    "price": 75,
-    "image": "images/dc shoes.webp",
-    "type": "shoes"
-  },
-  {
-    "id": "p10",
-    "name": "DC T-shirt",
-    "price": 25,
-    "image": "images/dc shirt.jpg",
-    "type": "shirts"
-  },
-  {
-    "id": "p11",
-    "name": "Nike Air Force 1",
-    "price": 65,
-    "image": "images/nike airforce1.webp",
-    "type": "shoes"
-  },
-  {
-    "id": "p12",
-    "name": "Adidas originals",
-    "price": 75,
-    "image": "images/adidas originals.jpg",
-    "type": "shoes"
-  },
-  {
-    "id": "p13",
-    "name": "Adidas Ultraboost",
-    "price": 85,
-    "image": "images/scd-1621609632.png",
-    "type": "shoes"
-  },
-  {
-    "id": "p14",
-    "name": "Nike Air Max",
-    "price": 100,
-    "image": "images/air max.png",
-    "type": "shoes"
-  },
-  {
-    "id": "p15",
-    "name": "Vans T-shirt",
-    "price": 20,
-    "image": "images/vans polo.png",
-    "type": "shirts"
-  },
-  {
-    "id": "p16",
-    "name": "Air Jordan 4 Retro",
-    "price": 130,
-    "image": "images/nike cipo.png",
-    "type": "shoes"
-  },
-  {
-    "id": "p17",
-    "name": "Hello Kitty T-shirt",
-    "price": 20,
-    "image": "images/hello kitty polo.png",
-    "type": "shirts"
+    "type": "streetwear"
   },
   {
     "id": "p18",
     "name": "Hello Kitty shoes",
     "price": 75,
     "image": "images/hello kitty cipo.png",
-    "type": "shoes"
+    "type": "sneakers"
   },
   {
-    "id": "p18",
-    "name": "Nike underwear",
-    "price": 10,
-    "image": "images/nike underwear.png",
-    "type": "underwear"
-  },
-    {
-    "id": "p18",
-    "name": "Adidas underwear",
-    "price": 10,
-    "image": "images/adidas underwear.png",
-    "type": "underwear"
-  },
-    {
-    "id": "p18",
-    "name": "DC underwear",
-    "price": 7,
-    "image": "images/dc underwear.png",
-    "type": "underwear"
+    "id": "990e8bca-1397-4593-a9ac-f0d7a9323806",
+    "name": "adidas Yeezy Slide Slate Grey",
+    "price": 128,
+    "image": "https://images.stockx.com/images/adidas-Yeezy-Slide-Slate-Grey-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
+    "type": "sneakers",
+    "onSale": true
   },
   {
-    "id": "p18",
-    "name": "Adidas sport shirt",
-    "price": 17,
-    "image": "images/adidas shirt.png",
-    "type": "shirts"
+    "id": "417d8d76-ea35-46bf-8d96-1d70297d876f",
+    "name": "adidas Yeezy Slide Dark Onyx",
+    "price": 144,
+    "image": "https://images.stockx.com/images/adidas-Yeezy-Slide-Dark-Onyx-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
+    "type": "sneakers",
+    "onSale": true
   },
   {
-    "id": "p18",
-    "name": "Nike Red T-shirt",
-    "price": 20,
-    "image": "images/nike shirt.png",
-    "type": "shirts"
+    "id": "1697b52b-e03c-4eaa-ac05-c1ba39ce398a",
+    "name": "Jordan 14 Retro Ferrari (2025)",
+    "price": 87,
+    "image": "https://images.stockx.com/images/Air-Jordan-14-Retro-Ferrari-2025-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1748015496",
+    "type": "sneakers",
+    "onSale": true
+  },
+  {
+    "id": "b9fa8357-cbd2-466d-bd05-b30714644fa6",
+    "name": "Fear of God Essentials Cream Drawstring Sweatshort Jet Black",
+    "price": 51,
+    "image": "https://images.stockx.com/images/Fear-of-God-Essentials-Sweatshort-Black.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1686151916",
+    "type": "streetwear",
+    "onSale": true
+  },
+  {
+    "id": "9e8fce7f-1c84-458a-8d71-71cf31b5d773",
+    "name": "Fear of God Essentials Fleece Hoodie (FW24) Black",
+    "price": 104,
+    "image": "https://images.stockx.com/images/Fear-of-God-Essentials-Fleece-Hoodie-FW24-Black.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1731585850",
+    "type": "streetwear",
+    "onSale": true
+  },
+  {
+    "id": "23114cf8-dfd9-43dc-8d1d-bec2d4115ca9",
+    "name": "Pop Mart Labubu The Monsters Exciting Macaron Vinyl Face Blind Box Whole Set",
+    "price": 78,
+    "image": "https://images.stockx.com/images/Pop-Mart-Labubu-The-Monsters-Tasty-Macarons-Vinyl-Face-Blind-Box-Whole-Set-Product-v2.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1746649401",
+    "type": "collectibles",
+    "onSale": true
+  },
+  {
+    "id": "39b0e924-ddec-48ea-afb1-0d416d076ee4",
+    "name": "Supreme Hanes Crew Socks (4 Pack) White",
+    "price": 116,
+    "image": "https://images.stockx.com/images/Supreme-Hanes-Crew-Socks-(4-Pack)-White.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1744142786",
+    "type": "streetwear",
+    "onSale": true
+  },
+  {
+    "id": "cc242078-21b2-4bfa-b1ef-fa29084621e5",
+    "name": "Pop Mart Labubu The Monsters Big into Energy Series ID (Secret Version) Vinyl Plush Pendant",
+    "price": 59,
+    "image": "https://images.stockx.com/images/Pop-Mart-Labubu-The-Monsters-Big-into-Energy-Series-ID-Secret-Version-Vinyl-Plush-Pendant.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1745001847",
+    "type": "collectibles",
+    "onSale": true
+  },
+  {
+    "id": "5b9ebe88-162c-48ee-b36f-f3c29ed23b68",
+    "name": "Pop Mart Labubu The Monsters x One Piece Series Sealed Case (12 Blind Boxes)",
+    "price": 64,
+    "image": "https://images.stockx.com/images/Pop-Mart-Labubu-The-Monsters-x-One-Piece-Series-Sealed-Case-12-Blind-Box-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1746645334",
+    "type": "collectibles",
+    "onSale": true
+  },
+  {
+    "id": "3db718a4-13a5-4489-83d7-c6a6d6e6da55",
+    "name": "Pop Mart Disney Mickey Family Together Series Plush Keychain Sealed Case (8 Blind Box)",
+    "price": 86,
+    "image": "https://images.stockx.com/images/Pop-Mart-Disney-Mickey-Family-Together-Series-Plush-Keychain-Sealed-Case-8-Blind-Box-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1746645343",
+    "type": "collectibles",
+    "onSale": true
+  },
+  {
+    "id": "298ce69c-e121-44cb-853c-7cb91198283d",
+    "name": "adidas Samba Jane White Black Gum (Women's)",
+    "price": 109,
+    "image": "https://images.stockx.com/images/adidas-Samba-Jane-White-Black-Gum-Womens-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1749157553",
+    "type": "sneakers",
+    "onSale": true
+  },
+  {
+    "id": "ea1f7421-4e32-45af-967a-507f8cc54636",
+    "name": "adidas Yeezy 700 V3 Fade Salt",
+    "price": 107,
+    "image": "https://images.stockx.com/images/adidas-Yeezy-700-V3-Fade-Salt-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
+    "type": "sneakers",
+    "onSale": true
+  },
+  {
+    "id": "b1c0c8b7-8573-44a1-895d-a49e77c4438e",
+    "name": "Jordan 4 Retro Seafoam Sail (Women's)",
+    "price": 113,
+    "image": "https://images.stockx.com/images/Air-Jordan-4-Retro-Seafoam-Sail-Womens-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
+    "type": "sneakers",
+    "onSale": true
+  },
+  {
+    "id": "9dd6eb66-0e05-48d9-9446-a752ed78bc1e",
+    "name": "Canon PowerShot G7 X Mark III 3637C001 Black (US Plug)",
+    "price": 140,
+    "image": "https://images.stockx.com/images/Canon-PowerShot-G7-X-Mark-III-3637C001-Black-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1753218426",
+    "type": "collectibles",
+    "onSale": true
+  },
+  {
+    "id": "36b658c8-2f5a-43bb-99b7-dbd907c8ee70",
+    "name": "Pop Mart Labubu The Monsters Big into Energy Series Vinyl Plush Pendant Single Blind Box",
+    "price": 127,
+    "image": "https://images.stockx.com/images/Pop-Mart-Labubu-The-Monsters-Big-into-Energy-Series-Vinyl-Plush-Pendant-Single-Blind-Box-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1746652408",
+    "type": "collectibles",
+    "onSale": true
+  },
+  {
+    "id": "ef6f745f-d873-4e66-8f64-a41efc85592b",
+    "name": "adidas Yeezy Boost 350 V2 MX Dark Salt",
+    "price": 127,
+    "image": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-MX-Dark-Salt-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
+    "type": "sneakers",
+    "onSale": true
+  },
+  {
+    "id": "d8d8b888-3d1b-4d44-8073-e7106e810151",
+    "name": "adidas Samba Jane Scarlet White Gum (Women's)",
+    "price": 85,
+    "image": "https://images.stockx.com/images/adidas-Samba-Jane-Scarlet-White-Gum-Womens-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1749624750",
+    "type": "sneakers",
+    "onSale": true
+  },
+  {
+    "id": "77b272d6-a2c1-4547-9067-9560bbfa0fb8",
+    "name": "Nike Hoops Elite Backpack (32L) Elemental Pink/Black/Black",
+    "price": 72,
+    "image": "https://images.stockx.com/images/Nike-Hoops-Elite-Backpack-32L-Elemental-Pink-Black-Black-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1746645338",
+    "type": "streetwear",
+    "onSale": true
+  },
+  {
+    "id": "a3accda1-4d8b-4fc0-a992-76f0295dcdd1",
+    "name": "Fear of God Essentials Jersey Crewneck T-Shirt Black",
+    "price": 107,
+    "image": "https://images.stockx.com/images/Fear-of-God-Essentials-Jersey-Crewneck-T-Shirt-Black.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1731585875",
+    "type": "streetwear",
+    "onSale": true
+  },
+  {
+    "id": "5fa488a0-4d64-485b-9d8b-0ced6b19aa04",
+    "name": "Nintendo Switch 2 MarioKart World Console Bundle 6614325 (US Plug)",
+    "price": 133,
+    "image": "https://images.stockx.com/images/Nintendo-Switch-2-MarioKart-World-Console-Bundle-6614325.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1744040897",
+    "type": "collectibles",
+    "onSale": true
+  },
+  {
+    "id": "fc77c3c9-b886-4a33-bb74-4681b394bfdf",
+    "name": "Nike Hoops Elite 32L Backpack Black/Silver",
+    "price": 130,
+    "image": "https://images.stockx.com/images/Nike-Hoops-Elite-32L-Backpack-Black-Silver-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1746648902",
+    "type": "streetwear",
+    "onSale": true
+  },
+  {
+    "id": "eadd2461-f6c4-45eb-86f8-83869bb034b3",
+    "name": "Supreme Hanes Boxer Briefs (4 Pack) Black",
+    "price": 106,
+    "image": "https://images.stockx.com/images/Supreme-Hanes-Boxer-Briefs-Black-v3.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1744142786",
+    "type": "streetwear",
+    "onSale": true
+  },
+  {
+    "id": "69",
+    "name": "Adidas Márk Limited Edition",
+    "price": 69,
+    "image": "images/20250724_192005.jpg",
+    "type": "creatorshoes",
+    "onSale": true
+  },
+  {
+    "id": "6969",
+    "name": "Vans Zsombor Limited Edition + Zokni alig használt",
+    "price": 69,
+    "image": "images/IMG_0852.jpg",
+    "type": "creatorshoes",
+    "onSale": true
+  },
+  {
+    "id": "e9b89d0a-775f-42a4-9cdf-b91b7f538501",
+    "name": "Nike SB Dunk Low The Wizard of Oz Poppy Field",
+    "price": 58,
+    "image": "https://images.stockx.com/images/Nike-SB-Dunk-Low-The-Wizard-of-Oz-Poppy-Field-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
+    "type": "sneakers",
+    "onSale": true
+  },
+  {
+    "id": "3e0f602a-97fd-4bbc-bdc6-8b4902addf9d",
+    "name": "Nike Air Force 1 Mid SP Off-White Varsity Maize",
+    "price": 114,
+    "image": "https://images.stockx.com/images/Nike-Air-Force-1-Mid-SP-Off-White-Varsity-Maize-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
+    "type": "sneakers",
+    "onSale": true
+  },
+  {
+    "id": "d7b6d437-5bdc-4cb7-8dea-f42e1dbd9b04",
+    "name": "Jordan 5 Retro Burgundy (2023)",
+    "price": 75,
+    "image": "https://images.stockx.com/images/Air-Jordan-5-Retro-Burgundy-2023-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
+    "type": "sneakers",
+    "onSale": true
+  },
+  {
+    "id": "74288c64-c08b-4988-aef9-7fdf1a3dc867",
+    "name": "Pop Mart LABUBU Time to Chill Vinyl Plush Doll",
+    "price": 107,
+    "image": "https://images.stockx.com/images/Pop-Mart-LABUBU-Time-to-Chill-Vinyl-Plush-Doll.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1718900702",
+    "type": "collectibles",
+    "onSale": true
+  },
+  {
+    "id": "707cba08-9f35-442b-b035-60ae14275156",
+    "name": "Pop Mart Labubu The Monsters Let's Checkmate Series Vinyl Plush Doll",
+    "price": 109,
+    "image": "https://images.stockx.com/images/Pop-Mart-Labubu-The-Monsters-Lets-Checkmate-Series-Vinyl-Plush-Doll-V2.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1739373993",
+    "type": "collectibles",
+    "onSale": true
+  },
+  {
+    "id": "a80be0f1-0c8d-40ae-89ca-0473cb52dd4a",
+    "name": "BAPE College Tee Black",
+    "price": 125,
+    "image": "https://images.stockx.com/images/Bape-College-Tee-Black-v2.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1689612523",
+    "type": "streetwear",
+    "onSale": true
+  },
+  {
+    "id": "2b974fc6-f87b-425b-8579-0c035941c36c",
+    "name": "Supreme Hanes Socks (4 Pack) Black",
+    "price": 53,
+    "image": "https://images.stockx.com/images/Supreme-Hanes-Socks-4-Pack-Black.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1744142786",
+    "type": "streetwear",
+    "onSale": true
+  },
+  {
+    "id": "83efaf74-7869-4182-954a-7e9b890b3c92",
+    "name": "Nike x Levi's Trucker Jacket Denim",
+    "price": 134,
+    "image": "https://images.stockx.com/images/Nike-x-Levis-Trucker-Jacket-Denim.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1752077135",
+    "type": "streetwear",
+    "onSale": true
+  },
+  {
+    "id": "8ffe7d9b-9603-4467-9dcf-3ec69c07517f",
+    "name": "2025 Topps Chrome Marvel Comics Hobby Box",
+    "price": 125,
+    "image": "https://images.stockx.com/images/2025-Topps-Chrome-Marvel-Comics-Hobby-Box.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1748022879",
+    "type": "collectibles",
+    "onSale": true
+  },
+  {
+    "id": "5358f3d9-fcaf-4cdc-a7c8-bdefc9d83120",
+    "name": "Fear of God Essentials Fleece Hoodie Black",
+    "price": 64,
+    "image": "https://images.stockx.com/images/Fear-of-God-Essentials-Fleece-Hoodie-Black-2.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1724895353",
+    "type": "streetwear",
+    "onSale": true
+  },
+  {
+    "id": "82d9297e-4f62-4a55-a585-3328b3262649",
+    "name": "Pop Mart Labubu The Monsters Have a Seat ZIZI Vinyl Plush",
+    "price": 79,
+    "image": "https://images.stockx.com/images/Pop-Mart-Labubu-The-Monsters-Have-a-Seat-ZIZI-Vinyl-Plush-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1746645344",
+    "type": "collectibles",
+    "onSale": true
+  },
+  {
+    "id": "cc2a76e6-6ab4-4545-af66-e42baa91ba59",
+    "name": "BAPE ABC Camo By Bathing Ape Tee White/Blue",
+    "price": 120,
+    "image": "https://images.stockx.com/images/BAPE-ABC-Camo-By-Bathing-Ape-Tee-White-Blue-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1746560681",
+    "type": "streetwear",
+    "onSale": true
+  },
+  {
+    "id": "7018d665-53b5-4cea-bdf3-8d0defed4689",
+    "name": "Canon PowerShot G7 X Mark III Camera 3638C001 Silver (US Model)",
+    "price": 148,
+    "image": "https://images.stockx.com/images/Cannon-PowerShot-G7-X-Mark-III-Camera-3638C011-Silver.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1744041089",
+    "type": "collectibles",
+    "onSale": true
+  },
+  {
+    "id": "696969",
+    "name": "Gucci Dani Premium Limited Edition",
+    "price": 69,
+    "image": "images/521992686_3207251169442526_3343728386732453091_n.png",
+    "type": "creatorshoes",
+    "onSale": true
   }
-  
-
-  
-
-  
 ]

@@ -5,9 +5,11 @@ import fs from "fs";
 
 const app = express();
 const PORT = 3000;
+
 const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-// Middleware to serve static files and parse JSON
+
+// Middleware
 app.use(express.static('public'));
 app.use(express.json());
 
@@ -18,9 +20,11 @@ app.get('/api/products', (req, res) => {
     if (err) {
       return res.status(500).json({ error: 'Unable to read products data.' });
     }
-    res.json(JSON.parse(data));
+    res.json(JSON.parse(data || '[]'));
   });
 });
+
+// Szerver kliens és Editor oldal
 app.get('/clientPage', (req, res) => {
   res.sendFile(path.join(__dirname, 'public/clientPage.html'));
 });
@@ -28,7 +32,8 @@ app.get('/clientPage', (req, res) => {
 app.get('/editorPage', (req, res) => {
   res.sendFile(path.join(__dirname, 'public/editorPage.html'));
 });
-// POST (Add or Edit) product
+
+// POST or update product
 app.post('/api/products', (req, res) => {
   const newProduct = req.body;
   const filePath = path.join(__dirname, 'data', 'products.json');
@@ -39,73 +44,69 @@ app.post('/api/products', (req, res) => {
     if (!err && data.trim()) {
       try {
         products = JSON.parse(data);
-        if (!Array.isArray(products)) {
-          products = [];
-        }
+        if (!Array.isArray(products)) products = [];
       } catch {
         products = [];
       }
     }
 
-    // Check if product with same ID exists
-    const existingIndex = products.findIndex(p => p.id === newProduct.id);
-
-    if (existingIndex !== -1) {
-      // Update existing product
-      products[existingIndex] = newProduct;
+    const index = products.findIndex(p => p.id === newProduct.id);
+    if (index !== -1) {
+      products[index] = newProduct;
+      console.log(`Product updated: ${newProduct.name}`);
     } else {
-      // Add new product
       products.push(newProduct);
+      console.log(`New product added: ${newProduct.name}`);
     }
 
-    // Save the updated list
     fs.writeFile(filePath, JSON.stringify(products, null, 2), err => {
-      if (err) {
-        return res.status(500).json({ error: 'Unable to save product.' });
-      }
+      if (err) return res.status(500).json({ error: 'Unable to save product.' });
       res.status(201).json({ message: 'Product saved successfully.' });
     });
   });
 });
 
-// POST a new order
+// POST new order
 app.post('/api/orders', (req, res) => {
-  const order = req.body;
+  const orderItems = req.body;
   const filePath = path.join(__dirname, 'data', 'order.json');
 
-  // Read existing orders
   fs.readFile(filePath, 'utf8', (err, data) => {
     let orders = [];
-    
+
     if (!err && data.trim()) {
       try {
         orders = JSON.parse(data);
-        if (!Array.isArray(orders)) {
-          orders = [];
-        }
+        if (!Array.isArray(orders)) orders = [];
       } catch {
         orders = [];
       }
     }
- 
-  let newOrder = {
-    id: orders.length + 1,
-    items: order
-  }
-    // Add the new order
-    orders.push(newOrder);
 
-    // Save updated order list
+    const newOrder = {
+      id: orders.length + 1,
+      date: new Date().toISOString(),
+      items: orderItems
+    };
+
+    orders.push(newOrder);
+    console.log(`New order placed. ID: ${newOrder.id}`);
+
     fs.writeFile(filePath, JSON.stringify(orders, null, 2), err => {
-      if (err) {
-        return res.status(500).json({ error: 'Unable to save order.' });
-      }
+      if (err) return res.status(500).json({ error: 'Unable to save order.' });
       res.status(201).json({ message: 'Order placed successfully.' });
     });
   });
 });
 
-// Start the server
+app.get('/api/orders', (req, res) => {
+  const filePath = path.join(__dirname, 'data', 'order.json');
+  fs.readFile(filePath, 'utf8', (err, data) => {
+    if (err) return res.status(500).json({ error: 'Unable to read orders.' });
+    res.json(JSON.parse(data || '[]'));
+  });
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
 });
