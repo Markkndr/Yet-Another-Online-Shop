@@ -126,3 +126,16 @@ nav button {
   padding: 5px 15px;
   cursor: pointer;
 }
+
+.sale-badge {
+  position: absolute;
+  background-color: crimson;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+  border-radius: 3px;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  font-weight: bold;
+}

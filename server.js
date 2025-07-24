@@ -21,7 +21,13 @@ app.get('/api/products', (req, res) => {
     res.json(JSON.parse(data));
   });
 });
+app.get('/clientPage', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public/clientPage.html'));
+});
 
+app.get('/editorPage', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public/editorPage.html'));
+});
 // POST (Add or Edit) product
 app.post('/api/products', (req, res) => {
   const newProduct = req.body;
