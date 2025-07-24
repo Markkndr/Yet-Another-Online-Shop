@@ -70,7 +70,7 @@ app.post('/api/orders', (req, res) => {
   // Read existing orders
   fs.readFile(filePath, 'utf8', (err, data) => {
     let orders = [];
-    let idObj = {}
+    
     if (!err && data.trim()) {
       try {
         orders = JSON.parse(data);
@@ -81,10 +81,13 @@ app.post('/api/orders', (req, res) => {
         orders = [];
       }
     }
-    idObj.orderID = orders.length
+ 
+  let newOrder = {
+    id: orders.length + 1,
+    items: order
+  }
     // Add the new order
-    orders.push(idObj)
-    orders.push(order);
+    orders.push(newOrder);
 
     // Save updated order list
     fs.writeFile(filePath, JSON.stringify(orders, null, 2), err => {

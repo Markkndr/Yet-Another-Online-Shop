@@ -1,118 +1,57 @@
 [
   {
-    "orderID": 2
+    "id": 1,
+    "items": [
+      {
+        "id": "p7",
+        "name": "Nike T-shirt",
+        "price": 25,
+        "image": "images/nike tshirt.webp",
+        "type": "shirts",
+        "quantity": 1
+      },
+      {
+        "id": "p6",
+        "name": "Adidas T-shirt",
+        "price": 22,
+        "image": "images/Adidas shirt.jpg",
+        "type": "shirts",
+        "quantity": 1
+      }
+    ]
   },
-  [
-    {
-      "id": "p4",
-      "name": "Crocs",
-      "price": 35,
-      "image": "images/crocs.webp",
-      "quantity": 1
-    },
-    {
-      "id": "p5",
-      "name": "Vans shoes",
-      "price": 50,
-      "image": "images/Vans shoes.jpg",
-      "quantity": 1
-    }
-  ],
   {
-    "orderID": 2
+    "id": 2,
+    "items": [
+      {
+        "id": "p7",
+        "name": "Nike T-shirt",
+        "price": 25,
+        "image": "images/nike tshirt.webp",
+        "type": "shirts",
+        "quantity": 1
+      },
+      {
+        "id": "p13",
+        "name": "Adidas Ultraboost",
+        "price": 85,
+        "image": "images/scd-1621609632.png",
+        "type": "shoes",
+        "quantity": 2
+      }
+    ]
   },
-  [
-    {
-      "id": "p4",
-      "name": "Crocs",
-      "price": 35,
-      "image": "images/crocs.webp",
-      "quantity": 1
-    },
-    {
-      "id": "p10",
-      "name": "DC shirt",
-      "price": 40,
-      "image": "images/dc shirt.jpg",
-      "quantity": 1
-    }
-  ],
   {
-    "orderID": 4
-  },
-  [
-    {
-      "id": "p17",
-      "name": "Hello Kitty T-shirt",
-      "price": 20,
-      "image": "images/hello kitty polo.png",
-      "type": "shirts",
-      "quantity": 1
-    },
-    {
-      "id": "p18",
-      "name": "Hello Kitty shoes",
-      "price": 75,
-      "image": "images/hello kitty cipo.png",
-      "type": "shoes",
-      "quantity": 1
-    }
-  ],
-  {
-    "orderID": 6
-  },
-  [
-    {
-      "id": "p18",
-      "name": "Hello Kitty shoes",
-      "price": 75,
-      "image": "images/hello kitty cipo.png",
-      "type": "shoes",
-      "quantity": 1
-    },
-    {
-      "id": "p17",
-      "name": "Hello Kitty T-shirt",
-      "price": 20,
-      "image": "images/hello kitty polo.png",
-      "type": "shirts",
-      "quantity": 1
-    }
-  ],
-  {
-    "orderID": 8
-  },
-  [
-    {
-      "id": "p8",
-      "name": "Csipkes bugyi",
-      "price": 10,
-      "image": "images/csipkes bugyi.webp",
-      "quantity": 1
-    },
-    {
-      "id": "p18",
-      "name": "Hello Kitty shoes",
-      "price": 75,
-      "image": "images/hello kitty cipo.png",
-      "type": "shoes",
-      "quantity": 1
-    },
-    {
-      "id": "p17",
-      "name": "Hello Kitty T-shirt",
-      "price": 20,
-      "image": "images/hello kitty polo.png",
-      "type": "shirts",
-      "quantity": 1
-    },
-    {
-      "id": "p4",
-      "name": "Crocs",
-      "price": 35,
-      "image": "images/crocs.webp",
-      "type": "shoes",
-      "quantity": 1
-    }
-  ]
+    "id": 3,
+    "items": [
+      {
+        "id": "p4",
+        "name": "Crocs",
+        "price": 35,
+        "image": "images/crocs.webp",
+        "type": "shoes",
+        "quantity": 1
+      }
+    ]
+  }
 ]
