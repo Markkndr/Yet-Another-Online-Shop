@@ -1,17 +1,23 @@
 let cart = [];
+let allProducts = []
 
 async function main() {
   const response = await fetch('/api/products');
   const products = await response.json();
 
+  allProducts = products
+
+  renderProducts(products)
+  setupCategoryButtons()
+  
   const productList = document.getElementById('product-list');
 
 const htmlProducts = products.map(product => `
   <div class="product-card">
     <img src="${product.image}" alt="${product.name}" />
     <h2>${product.name}</h2>
-    <h3>${product.price} Ft</h3>
-    <button data-id="${product.id}">Kosárba</button>
+    <h3>${product.price} €</h3>
+    <button data-id="${product.id}">To Cart</button>
   </div>
 `).join('');
 
@@ -91,5 +97,44 @@ document.getElementById('checkout-btn')?.addEventListener('click', async () => {
     alert("There was an error during the order.");
   }
 });
+
+function renderProducts(products) {
+  const productList = document.getElementById('product-list');
+  const htmlProducts = products.map(product => `
+    <div class="product-card">
+      <img src="${product.image}" alt="${product.name}" />
+      <h2>${product.name}</h2>
+      <h3>${product.price} €</h3>
+      <button data-id="${product.id}">To Cart</button>
+    </div>
+  `).join('');
+  productList.innerHTML = htmlProducts;
+
+  const buttons = productList.querySelectorAll('button');
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      const id = button.getAttribute('data-id');
+      const product = allProducts.find(p => p.id === id);
+      if (product) {
+        addToCart(product);
+      }
+    });
+  });
+}
+
+function setupCategoryButtons() {
+  const categoryButtons = document.querySelectorAll('.category-btn');
+  categoryButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const category = button.getAttribute('data-category');
+      if (category === 'all') {
+        renderProducts(allProducts);
+      } else {
+        const filtered = allProducts.filter(p => p.type === category);
+        renderProducts(filtered);
+      }
+    });
+  });
+}
 
 main();

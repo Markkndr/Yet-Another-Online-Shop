@@ -2,45 +2,52 @@
   {
     "id": "p1",
     "name": "Nike Jordan Air 1",
-    "price": 80,
-    "image": "images/nike air.avif"
+    "price": 90,
+    "image": "images/nike air.avif",
+    "type": "shoes"
   },
   {
     "id": "p2",
     "name": "Puma shoes",
-    "price": 55,
-    "image": "images/puma shoes.png"
+    "price": 60,
+    "image": "images/puma shoes.png",
+    "type": "shoes"
   },
   {
     "id": "p3",
     "name": "Yeezy slide",
     "price": 110,
-    "image": "images/yeezy slide.webp"
+    "image": "images/yeezy slide.webp",
+    "type": "shoes"
   },
   {
     "id": "p4",
     "name": "Crocs",
     "price": 35,
-    "image": "images/crocs.webp"
+    "image": "images/crocs.webp",
+    "type": "shoes"
   },
   {
     "id": "p5",
     "name": "Vans shoes",
     "price": 50,
-    "image": "images/Vans shoes.jpg"
+    "image": "images/Vans shoes.jpg",
+    "type": "shoes"
 
   },
   {
     "id": "p6",
     "name": "Adidas T-shirt",
     "price": 22,
-    "image": "images/Adidas shirt.jpg"
+    "image": "images/Adidas shirt.jpg",
+    "type": "shirts"
   },
   {
     "id": "p7",
     "name": "Nike T-shirt",
     "price": 25,
-    "image": "images/nike tshirt.webp"
+    "image": "images/nike tshirt.webp",
+    "type": "shirts"
   },
   {
     "id": "p8",
@@ -51,27 +58,74 @@
   {
     "id": "p9",
     "name": "DC shoes",
-    "price": 40,
-    "image": "images/dc shoes.webp"
+    "price": 75,
+    "image": "images/dc shoes.webp",
+    "type": "shoes"
   },
   {
     "id": "p10",
-    "name": "DC shirt",
-    "price": 40,
-    "image": "images/dc shirt.jpg"
+    "name": "DC T-shirt",
+    "price": 25,
+    "image": "images/dc shirt.jpg",
+    "type": "shirts"
   },
   {
     "id": "p11",
     "name": "DC shoes",
-    "price": 40,
-    "image": "images/nike airforce1.webp"
+    "price": 65,
+    "image": "images/nike airforce1.webp",
+    "type": "shoes"
   },
   {
     "id": "p12",
     "name": "Adidas originals",
-    "price": 40,
-    "image": "images/adidas originals.jpg"
+    "price": 75,
+    "image": "images/adidas originals.jpg",
+    "type": "shoes"
+  },
+  {
+    "id": "p13",
+    "name": "Adidas Ultraboost",
+    "price": 85,
+    "image": "images/scd-1621609632.png",
+    "type": "shoes"
+  },
+  {
+    "id": "p14",
+    "name": "Nike Air Max",
+    "price": 100,
+    "image": "images/air max.png",
+    "type": "shoes"
+  },
+  {
+    "id": "p15",
+    "name": "Vans T-shirt",
+    "price": 30,
+    "image": "images/vans polo.png",
+    "type": "shirts"
+  },
+  {
+    "id": "p16",
+    "name": "Air Jordan 4 Retro",
+    "price": 130,
+    "image": "images/nike cipo.png",
+    "type": "shoes"
+  },
+  {
+    "id": "p17",
+    "name": "Hello Kitty T-shirt",
+    "price": 20,
+    "image": "images/hello kitty polo.png",
+    "type": "shirts"
+  },
+  {
+    "id": "p18",
+    "name": "Hello Kitty shoes",
+    "price": 75,
+    "image": "images/hello kitty cipo.png",
+    "type": "shoes"
   }
+  
 
   
 

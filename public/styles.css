@@ -2,9 +2,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background: linear-gradient(to right, #f2f4f7, #d9e4f5);
+  min-height: 100vh;
 }
-
 header {
   background-color: #333;
   color: white;
@@ -34,6 +34,8 @@ header h1 {
   text-align: center;
   box-shadow: 0 1px 4px rgba(0,0,0,0.05);
   transition: transform 0.2s ease;
+  position: relative; 
+  padding-bottom: 3rem; 
 }
 
 .product-card h2 {
@@ -59,6 +61,10 @@ header h1 {
   cursor: pointer;
   font-size: 0.9rem;
   transition: background-color 0.3s ease;
+  position: absolute;     
+  bottom: 1rem;            
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 
@@ -105,7 +111,18 @@ header h1 {
 
 .product-card img {
   width: 100%;
-  height: auto;
+  height: 150px;           
+  object-fit: cover;       
   border-radius: 5px;
   margin-bottom: 0.5rem;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav button {
+  margin-right: 10px;
+  padding: 5px 15px;
+  cursor: pointer;
 }
